@@ -6,6 +6,7 @@
 
 ---
 
+<!-- REPOS:START -->
 #### 🧠 [scout-blueprint](https://github.com/BWBlueVector/scout-blueprint) — build your own persistent AI assistant
 A complete, copy-paste spec for a voice-enabled AI assistant with real memory, a local dashboard, and $0/month cost beyond your existing Claude subscription. Documents the real failure modes (stale dashboards, broken links, permission sprawl) that only show up once you actually run something like this for a while.
 
@@ -17,6 +18,7 @@ The single most useful discipline I've built into my own agent workflows: the ga
 
 #### 🧵 [suite-workflow](https://github.com/BWBlueVector/suite-workflow) — calibrated batch production
 A four-stage pipeline (Ideate → Build → Self-check → Parallelise) for any "give me N of these" request, with a genuinely novel piece: a pre-committed prediction interview that measures whether an AI agent actually understands your decision-making, before letting it filter anything autonomously.
+<!-- REPOS:END -->
 
 ---
 
