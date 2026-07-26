@@ -12,16 +12,16 @@ import re
 import sys
 import urllib.request
 
-OWNER = "BWBlueVector"
+ACCOUNT = "BWBlueVector"  # GitHub account whose repos we list
 README_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "README.md")
 START_MARKER = "<!-- REPOS:START -->"
 END_MARKER = "<!-- REPOS:END -->"
 
 
 def fetch_repos(token: str) -> list[dict]:
-    """Return public, non-fork repos for OWNER sorted alphabetically by name."""
+    """Return public, non-fork repos for ACCOUNT sorted alphabetically by name."""
     url = (
-        f"https://api.github.com/users/{OWNER}/repos"
+        f"https://api.github.com/users/{ACCOUNT}/repos"
         "?type=public&sort=full_name&per_page=100"
     )
     headers = {
@@ -39,12 +39,19 @@ def fetch_repos(token: str) -> list[dict]:
     return [
         r
         for r in repos
-        if not r["fork"] and r["name"] != OWNER
+        # Skip forks and the special profile-README repo (name == account name)
+        if not r["fork"] and r["name"] != ACCOUNT
     ]
 
 
 def build_section(repos: list[dict]) -> str:
-    """Render the full marked block (markers included)."""
+    """Render the full marked block (markers included).
+
+    Uses a simple bullet-list format because the GitHub API only provides a
+    short description string — not the hand-crafted emojis and paragraphs
+    that may have existed before the first automated run.  The markers
+    delimit exactly what the script owns; everything outside them is untouched.
+    """
     lines = [START_MARKER]
     for repo in repos:
         name = repo["name"]
