@@ -7,17 +7,14 @@
 ---
 
 <!-- REPOS:START -->
-#### 🧠 [scout-blueprint](https://github.com/BWBlueVector/scout-blueprint) — build your own persistent AI assistant
-A complete, copy-paste spec for a voice-enabled AI assistant with real memory, a local dashboard, and $0/month cost beyond your existing Claude subscription. Documents the real failure modes (stale dashboards, broken links, permission sprawl) that only show up once you actually run something like this for a while.
-
-#### 📓 [obsidian-vault-conventions](https://github.com/BWBlueVector/obsidian-vault-conventions) — reliable AI-agent memory
-A Claude Code skill that keeps an AI's persistent memory correctly readable by both the AI and a human browsing it in Obsidian — built after two real bugs (broken wikilinks, vanishing tags) taught me the hard way that these two "readers" don't agree on what a valid file looks like.
-
-#### ✅ [post-change-verification](https://github.com/BWBlueVector/post-change-verification) — don't trust, verify
-The single most useful discipline I've built into my own agent workflows: the gap between "the file is fixed" and "the running system reflects it." A concrete process for catching the failure mode where an AI agent reports success and the fix genuinely doesn't reach production.
-
-#### 🧵 [suite-workflow](https://github.com/BWBlueVector/suite-workflow) — calibrated batch production
-A four-stage pipeline (Ideate → Build → Self-check → Parallelise) for any "give me N of these" request, with a genuinely novel piece: a pre-committed prediction interview that measures whether an AI agent actually understands your decision-making, before letting it filter anything autonomously.
+- **[ai-integration-playbook](https://github.com/BWBlueVector/ai-integration-playbook)** — Teaching guides for implementing AI in a real business — real costs, timelines, and mistakes from ventures actually built with an AI assistant doing the execution
+- **[BlueVector-Website](https://github.com/BWBlueVector/BlueVector-Website)** — Production lead-gen site for a Kohler-authorized bath/shower remodeling business — Netlify booking flow, SEO/GEO schema.org structured data for search + AI answer engines
+- **[obsidian-vault-conventions](https://github.com/BWBlueVector/obsidian-vault-conventions)** — Claude Code skill that keeps an AI's persistent memory correctly readable by both the AI and a human browsing it in Obsidian
+- **[post-change-verification](https://github.com/BWBlueVector/post-change-verification)** — Claude Code skill that catches the gap between "the file is fixed" and "the running system reflects it" after an AI agent makes a change
+- **[scout-blueprint](https://github.com/BWBlueVector/scout-blueprint)** — Copy-paste spec for building a persistent, voice-enabled AI assistant on Claude Code — $0/month beyond your subscription
+- **[scout-mission-control](https://github.com/BWBlueVector/scout-mission-control)** — Local dashboard for a Claude Code assistant: live memory graph, scheduled-task countdowns, business telemetry — zero external dependencies
+- **[scout-voice](https://github.com/BWBlueVector/scout-voice)** — Fully local push-to-talk voice interface for Claude Code: faster-whisper + Kokoro TTS, zero cloud audio
+- **[suite-workflow](https://github.com/BWBlueVector/suite-workflow)** — Claude Code skill for calibrated batch production — Ideate/Build/Self-check/Parallelise with a measured, pre-committed trust gate
 <!-- REPOS:END -->
 
 ---
