@@ -1,8 +1,8 @@
-### Hi, I'm Braxton — I design and ship real, working AI agent systems.
+### Hi, I'm Braxton — I design and ship AI agent systems with you. I bring my consulting and business analytic skills to ensure you have the correct AI systems, agents, and training to get the job done.
 
-12+ years as a U.S. Air Force public affairs officer, now pivoting that same discipline — clear communication, process rigor, real accountability — into building and implementing AI systems for real work, not demos.
+12+ years as a U.S. Air Force public affairs officer, now pivoting that high-stakes communication experience, process review, and accountability into building and implementing AI systems for businesses.
 
-**What I actually build:** persistent AI assistants with real memory, real verification discipline, and real production incidents I've debugged and fixed. The repos below aren't tutorials I copied — they're the exact tooling from a working system I run daily, cleaned up and generalized so you can use it too.
+**What I actually build:** persistent AI assistants with real memory, curated systems for your business, and production incidents that I've debugged and fixed. The repos below are from a working system I run daily, cleaned up and generalized so you can use it too.
 
 ---
 
@@ -19,4 +19,4 @@
 
 ---
 
-**What I'm looking to do next:** help teams and businesses actually implement AI well — not as a buzzword, but with the same rigor as the systems above: real memory design, real verification, honest about what breaks and how it gets fixed. If that's a conversation worth having, reach out.
+**What I'm looking to do next:** help teams and businesses actually implement AI correctly, but with the same rigor as the systems above: memory design, verification, honest about what breaks and how it gets fixed. If that's a conversation worth having, please reach out!
